@@ -26,3 +26,4 @@ Règles strictes :
 - N'invente rien. Si une information n'est pas trouvée, écris « non trouvé ».
 - Préfère les sources de moins de 12 mois et donne toujours la date.
 - Aucune donnée personnelle hors dirigeants cités publiquement.
+- Ne cite jamais un profil ou un post d'un particulier comme source.
