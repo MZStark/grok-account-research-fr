@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 from datetime import date
 
-from agents.outreach import MAX_WORDS, count_words, write_outreach
+from agents.outreach import MAX_WORDS, count_words, translate_outreach, write_outreach
 from agents.research import research
 from agents.use_cases import derive_use_cases, to_markdown
 from core.config import Settings
@@ -23,17 +23,19 @@ def run(company: str, settings: Settings, llm: LLM | None = None, log=lambda msg
 
     log("3/3 Writing the outreach message...")
     message = write_outreach(brief.markdown, cases_md, llm)
-    words = count_words(message)
-    warning = f"\n\n> Attention : {words} mots, au-dessus de la limite de {MAX_WORDS}." if words >= MAX_WORDS else ""
+    translation = translate_outreach(message, llm)
+    words = count_words(message)  # the limit applies to the French message only
+    warning = f"\n\n> Warning: {words} words, over the {MAX_WORDS}-word limit." if words >= MAX_WORDS else ""
 
-    sources = "\n".join(f"- {url}" for url in brief.sources) or "- (aucune source renvoyée par l'API)"
+    sources = "\n".join(f"- {url}" for url in brief.sources) or "- (no sources returned by the API)"
     report = (
-        f"# {brief.company} : recherche de compte Grok Bot\n\n"
-        f"_Généré le {date.today():%d/%m/%Y} avec le modèle {settings.model}. "
-        f"À vérifier avant tout envoi._\n\n"
+        f"# {brief.company}: Grok Bot account research\n\n"
+        f"_Generated on {date.today():%Y-%m-%d} with model {settings.model}. "
+        f"Check every fact before sending._\n\n"
         f"{brief.markdown.strip()}\n\n"
         f"{cases_md}\n\n"
-        f"## Premier message de prospection ({words} mots)\n\n{message}{warning}\n\n"
+        f"## First outreach message ({words} words)\n\n{message}{warning}\n\n"
+        f"### English translation\n\n{translation}\n\n"
         f"## Sources\n\n{sources}\n"
     )
     return dedupe_citations(report)

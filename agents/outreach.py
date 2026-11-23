@@ -1,4 +1,4 @@
-"""Step 3: write the first outreach message (under 120 words)."""
+"""Step 3: write the first outreach message in French (under 120 words), then translate it."""
 
 from __future__ import annotations
 
@@ -7,7 +7,8 @@ import re
 from core import prompts
 from core.llm import LLM
 
-SYSTEM = "Tu écris des messages de prospection courts, humains et précis, en français."
+SYSTEM = "You write short, human, precise outreach messages in French for French companies."
+TRANSLATE_SYSTEM = "You are a professional French-to-English translator."
 MAX_WORDS = 120
 
 
@@ -27,5 +28,10 @@ def write_outreach(account_markdown: str, use_cases_markdown: str, llm: LLM, ret
         message = llm.complete(SYSTEM, user).text.replace("—", ",").strip()
         if count_words(message) < MAX_WORDS:
             return message
-        user += f"\n\nTon message fait {count_words(message)} mots. Raccourcis-le sous {MAX_WORDS} mots."
+        user += f"\n\nYour message is {count_words(message)} words long. Shorten it to under {MAX_WORDS} words, still in French."
     return message  # still too long after retries: returned as is, flagged by the pipeline
+
+
+def translate_outreach(message: str, llm: LLM) -> str:
+    """English translation of the final French message, for readers who do not speak French."""
+    return llm.complete(TRANSLATE_SYSTEM, prompts.load("translation", message=message)).text.replace("—", ",").strip()

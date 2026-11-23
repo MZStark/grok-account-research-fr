@@ -8,4 +8,4 @@ python main.py "Alan"     -o examples/alan.md
 python main.py "Doctolib" -o examples/doctolib.md
 ```
 
-Each file contains the account brief, the 3 use cases, the outreach message and the sources used. Facts reflect public information on the date shown at the top of each file.
+Each file contains the account brief, the 3 use cases, the outreach message (in French, with an English translation) and the sources used. Facts reflect public information on the date shown at the top of each file.

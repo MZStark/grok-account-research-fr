@@ -1,81 +1,97 @@
-# Qonto : recherche de compte Grok Bot
+# Qonto: Grok Bot account research
 
-_Généré le 23/11/2026 avec le modèle grok-4.7. À vérifier avant tout envoi._
+_Generated on 2026-11-23 with model grok-4.7. Check every fact before sending._
 
-## Fiche compte : Qonto
+## Account brief: Qonto
 
-**Activité** : Qonto vend une plateforme de gestion financière aux indépendants, TPE et PME : compte professionnel, cartes, facturation, pré-comptabilité, gestion des dépenses et, de plus en plus, financement. Depuis le 18 novembre 2026, la société opère comme établissement de crédit (agrément ACPR et BCE), après avoir exercé comme établissement de paiement. Elle revendique plus de 750 000 clients dans 8 pays. [[1]](https://qonto.com/fr/press) [[2]](https://www.lejournaldesentreprises.com/article/qonto-obtient-lagrement-detablissement-de-credit-avec-des-financements-annonces-pour-2027-2148581)
+**Business**: Qonto sells an all-in-one business finance platform — accounts, cards, invoicing, bookkeeping, spend management and financing tools — to European SMEs, freelancers and self-employed professionals. It was launched in 2017 by Alexandre Prot and Steve Anavi and, on its own site, now describes itself as a licensed credit institution serving more than 750,000 customers in eight European markets. [[1]](https://qonto.com/en/press) [[2]](https://qonto.com/en/about)
 
-**Taille** : plus de 1 700 collaborateurs (chiffre communiqué par Qonto, espace presse, consulté avec les annonces de 2026). Produit net bancaire 2025 : 495,4 M€ (+10,4 %), résultat net 2025 : 92,8 M€, contre 144,4 M€ en 2024, selon les comptes sociaux relayés par la presse (rentable depuis 2023). Total levé depuis la création : 622 M€ ; dernière grande levée publique : série D de 486 M€ en janvier 2022, valorisation alors de 4,4 Md€. Aucune nouvelle levée annoncée. [[1]](https://qonto.com/fr/press) [[2]](https://www.lejournaldesentreprises.com/article/qonto-obtient-lagrement-detablissement-de-credit-avec-des-financements-annonces-pour-2027-2148581) [[3]](https://www.capital.fr/entreprises-marches/qonto-la-fintech-francaise-assume-une-croissance-plus-moderee-1530432) [[4]](https://www.lefigaro.fr/flash-eco/la-fintech-qonto-leve-le-pied-sur-la-croissance-20260924)
+**Size**: The company states about 1,700 employees; in September 2026 its CEO said more than 450 people had been hired in 2026 alone. [[1]](https://qonto.com/en/press) [[3]](https://www.startupbusiness.it/en/qonto-new-headquarters-in-paris-ai-new-services-and-a-banking-licence/200186/) Les Echos, using 2025 statutory accounts, reported net banking income of €495.4 million and net income of €92.8 million; Qonto did not comment. [[4]](https://www.lesechos.fr/finance-marches/banque-assurances/fintech-qonto-franchit-les-10-milliards-deuros-de-bilan-2246010) The company states €622 million raised since launch; the 2022 round was €486 million at a €4.4 billion valuation. [[1]](https://qonto.com/en/press) [[5]](https://en.wikipedia.org/wiki/Qonto) It has been profitable since 2023. [[6]](https://www.prnewswire.com/news-releases/qonto-has-been-granted-banking-license-marking-a-historic-milestone-in-its-european-development-302942703.html) [[4]](https://www.lesechos.fr/finance-marches/banque-assurances/fintech-qonto-franchit-les-10-milliards-deuros-de-bilan-2246010)
 
-**Secteur** : services financiers / fintech. Sous-segment : banque et gestion financière pour indépendants, TPE et PME (compte pro, outils finance, et désormais crédit et épargne). Code APE 6419Z (autres intermédiations monétaires). Raison sociale : Qonto SA, RCS Paris 819 489 626. [[5]](https://data.inpi.fr/entreprises/819489626) [[6]](https://qonto.com/fr/about)
+**Sector**: Financial services / fintech. Sub-segment: business banking and finance management for SMEs and freelancers. French activity code 6419Z (other monetary intermediation). In 2023 the French statistical register classed the legal entity as an ETI. [[1]](https://qonto.com/en/press) [[7]](https://www.pappers.fr/entreprise/qonto-819489626) [[8]](https://entreprises.lefigaro.fr/qonto-75/entreprise-819489626)
 
-**Siège et implantations** : siège au 6 impasse Bonne Nouvelle, 75010 Paris (nouveau siège de 11 000 m² inauguré en septembre 2026). Marchés : France, Allemagne, Italie, Espagne, Autriche, Belgique, Pays-Bas, Portugal. L’espace presse situe les équipes dans cinq villes : Paris, Berlin, Milan, Barcelone et Belgrade. La page carrières affiche aussi Amsterdam et Madrid. [[1]](https://qonto.com/fr/press) [[7]](https://qonto.com/fr/careers)
+**Headquarters and locations**: Registered office at 6 Impasse Bonne Nouvelle, 75010 Paris, France (transfer from 18 Rue de Navarin effective 1 July 2026). [[1]](https://qonto.com/en/press) [[9]](https://data.inpi.fr/export/companies?format=pdf&ids=%5B%22819489626%22%5D) The company says its 1,700 people are in Paris, Berlin, Milan, Barcelona and Belgrade, and that the product is live in France, Germany, Italy, Spain, Austria, Belgium, the Netherlands and Portugal. [[1]](https://qonto.com/en/press) The careers page also lists Amsterdam among offices. [[10]](https://qonto.com/en/careers) Legal entity: Qonto SA, RCS Paris 819 489 626. [[2]](https://qonto.com/en/about)
 
-### Actualités récentes
+### Recent news
+- November 2026: ACPR and the ECB granted Qonto a credit-institution licence; payment accounts became deposit accounts, and a first range of financing and term deposits is planned for the first half of 2027 (Qonto press release, 17 November 2026). [[1]](https://qonto.com/en/press) [[6]](https://www.prnewswire.com/news-releases/qonto-has-been-granted-banking-license-marking-a-historic-milestone-in-its-european-development-302942703.html)
+- October 2026: Launch of Qonto Insights, a free monthly platform of anonymised SME transaction indexes covering cash buffers, AI adoption, late payments and cross-border activity (Qonto / PR Newswire, 7–15 October 2026). [[1]](https://qonto.com/en/press) [[11]](https://www.prnewswire.co.uk/news-releases/qonto-launches-qonto-insights-to-make-the-reality-of-european-smes-more-visible-302908803.html)
+- September 2026: Opening of an 11,000 sqm Paris headquarters at Impasse Bonne Nouvelle, with about 900 desks, framed as capacity for the next phase of European growth (Qonto, 24 September 2026). [[1]](https://qonto.com/en/press) [[12]](https://docs.publicnow.com/viewDoc.aspx?filename=238699/EXT/EA6372D8EC46744B011BE76E19E93BB346C7505F_D7BAFFE61A62340AAFC446AE879B7CB59209E602.PDF)
+- June 2026: Launch of Qonto MCP, making the business account usable inside Claude, ChatGPT and other MCP-compatible assistants across all eight markets (Qonto press release, 16 June 2026). [[1]](https://qonto.com/en/press) [[13]](https://qonto.com/docs/pdf/qonto_mcp_pressrelease_18.10.2026.pdf)
+- April 2026: Launch of two in-app agents, The Operator and The Analyst, positioned as a shift to an “AI-native” finance system for then 600,000 customers (Qonto, 27 April 2026). [[1]](https://qonto.com/en/press) [[14]](https://ffnews.com/news/qonto-transforms-into-an-ai-native-fintech-deploying-two-intelligent-agents-across-600000-businesses)
 
-- **Novembre 2026** — Agrément d’établissement de crédit accordé par l’ACPR et la BCE, effectif le 18 novembre 2026 ; dépôts éligibles couverts par le FGDR jusqu’à 100 000 € ; financement de factures, lignes de crédit, prêts et dépôts à terme annoncés pour un déploiement progressif au premier semestre 2027 (espace presse Qonto, 17 novembre 2026 ; Journal des Entreprises, 19 novembre 2026). [[1]](https://qonto.com/fr/press) [[2]](https://www.lejournaldesentreprises.com/article/qonto-obtient-lagrement-detablissement-de-credit-avec-des-financements-annonces-pour-2027-2148581)
-- **Octobre 2026** — Lancement de Qonto Insights, observatoire de l’activité des TPE et PME (trésorerie, IA, retards de paiement) (espace presse Qonto, 7 octobre 2026). [[1]](https://qonto.com/fr/press)
-- **Septembre 2026** — Inauguration du siège parisien « Qonto Bonne Nouvelle » (11 000 m², 900 postes). La direction assume une croissance plus modérée, vise davantage de produits par client et des entreprises plus grandes, et écarte levée de fonds et introduction en Bourse à court terme ; 750 000 clients, environ 1 700 salariés (espace presse Qonto, 24 septembre 2026 ; Capital / AFP, 24 septembre 2026). [[1]](https://qonto.com/fr/press) [[3]](https://www.capital.fr/entreprises-marches/qonto-la-fintech-francaise-assume-une-croissance-plus-moderee-1530432)
-- **Juillet 2026** — Enrichissement de l’offre avec un service d’expertise comptable certifié en ligne (espace presse Qonto, 2 juillet 2026). [[1]](https://qonto.com/fr/press)
-- **Juin 2026** — Lancement de Qonto MCP, qui rend le compte pilotable depuis des assistants IA (espace presse Qonto, 16 juin 2026). [[1]](https://qonto.com/fr/press)
+### Buying signals
+- **Announced AI and automation (strongest)**: In April and June 2026 Qonto shipped customer-facing agents and an MCP server, and its careers page offers employees unlimited access to Claude Cowork and other AI tools. [[14]](https://ffnews.com/news/qonto-transforms-into-an-ai-native-fintech-deploying-two-intelligent-agents-across-600000-businesses) [[13]](https://qonto.com/docs/pdf/qonto_mcp_pressrelease_18.10.2026.pdf) [[10]](https://qonto.com/en/careers) That means an external AI-agent offer is entering a buyer that already builds and buys agents, so the relevant pitch is internal workflows they have not productised, not a replacement for their customer product.
+- **Expansion**: The November 2026 banking licence, planned 2027 lending and deposits, a doubled Paris HQ, and an eight-country footprint add regulated operations on top of an already multi-market product. [[6]](https://www.prnewswire.com/news-releases/qonto-has-been-granted-banking-license-marking-a-historic-milestone-in-its-european-development-302942703.html) [[12]](https://docs.publicnow.com/viewDoc.aspx?filename=238699/EXT/EA6372D8EC46744B011BE76E19E93BB346C7505F_D7BAFFE61A62340AAFC446AE879B7CB59209E602.PDF) [[1]](https://qonto.com/en/press) That means more internal volume in credit, fraud, compliance and customer operations, where an agent can draft, retrieve and route work under human approval.
+- **Hiring**: The careers page listed 51 open positions, including visible roles in Tech & Data, Growth, Operations & Customer Success, Finance, Risk & Compliance and People, across Paris, Berlin, Barcelona and Belgrade; a full count by function was not on the landing page. [[10]](https://qonto.com/en/careers) That means active staffing of the same functions an internal agent would sit beside, especially risk, operations and data, rather than a hiring freeze.
+- **Leadership**: On 18 December 2025 Qonto appointed Chloé de Mont-Serrat as COO, with a remit that explicitly includes automation and AI, operational scale and readiness for the banking licence; Alexandre Prot remains CEO and Steve Anavi president. [[15]](https://qonto.com/docs/pdf/20251218_qonto_pr%20announcement_chloe%20de%20mont%20serrat_en.pdf) [[1]](https://qonto.com/en/press) That means there is a named operations sponsor for automation, but no evidence of a CEO change.
+- **Funding (weakest)**: No new primary equity round was found after the 2022 round; the company cites €622 million raised in total and has been profitable since 2023. [[5]](https://en.wikipedia.org/wiki/Qonto) [[1]](https://qonto.com/en/press) [[4]](https://www.lesechos.fr/finance-marches/banque-assurances/fintech-qonto-franchit-les-10-milliards-deuros-de-bilan-2246010) That means a purchase would come from operating budget and has to show productivity or control, not deployment of fresh venture cash.
 
-### Signaux d'achat
+### Open questions
+- A single current headcount was not verified: the company says about 1,700, while the French register still shows the 2023 band of 500 to 999 employees, and third-party profile counts differ. [[1]](https://qonto.com/en/press) [[7]](https://www.pappers.fr/entreprise/qonto-819489626)
+- A complete breakdown of the 51 open roles by function and location was not found; only a partial list was visible on the careers page. [[10]](https://qonto.com/en/careers)
+- Whether Amsterdam is a staffed office was not confirmed; the press page names five locations and the careers page also lists Amsterdam. [[1]](https://qonto.com/en/press) [[10]](https://qonto.com/en/careers)
+- No company confirmation of an equity round after 2022 was found.
+- The 2025 revenue and profit figures come from Les Echos’ reading of statutory accounts; the full accounts were not read here, and Qonto did not comment. [[4]](https://www.lesechos.fr/finance-marches/banque-assurances/fintech-qonto-franchit-les-10-milliards-deuros-de-bilan-2246010)
+- No public source was found on budget owner, incumbent internal AI tools beyond the stated Claude access, or willingness to buy an external agent versus building.
 
-- **Projets IA déjà en production (signal fort).** En avril 2026, Qonto a lancé deux agents clients, The Operator et The Analyst, alors présentés pour 600 000 entreprises ; en juin 2026, le serveur MCP ouvre le compte à Claude, ChatGPT ou Mistral. La page carrières promet un accès illimité à Claude Cowork et aux outils IA, et publie au moins un poste « Staff Software Engineer, AI Agents (Python) » à Paris. Implication : ce n’est pas un prospect à évangéliser sur l’IA. Une offre d’agents n’a de place que là où Qonto n’a pas encore industrialisé (conformité, opérations, finance interne, support multilingue), avec un argument de productivité et de contrôle, pas de découverte.
-- **Nouveau statut bancaire et nouvelles offres (signal fort).** L’agrément de novembre 2026 ouvre crédit, épargne et certificats de dépôt de capital, avec une première gamme visée au S1 2027, et un service d’expertise comptable lancé en juillet 2026. Implication : montée en charge réglementaire et de parcours clients (crédit, KYC, documentation, formation des équipes) où des agents internes peuvent absorber du volume sans recruter au rythme de 2022.
-- **Recrutements sélectifs, pas une vague d’embauches (signal moyen).** La page carrières française affichait 30 postes ouverts lors de la consultation (growth, customer success, conformité / anti-financial crime, finance transformation, data, ingénierie dont AI Agents). La version anglaise de la même page indiquait 51 postes dans un extrait de recherche ; l’écart n’a pas été réconcilié. En septembre 2026, l’effectif était d’environ 1 700, sous l’objectif historique de 2 000. Implication : le levier d’achat est l’outillage des équipes en place, pas un plan massif de staffing.
-- **Expansion géographique en régime de croisière (signal moyen).** Huit marchés déjà ouverts ; bureaux affichés au-delà du noyau historique, dont Amsterdam (ouverture d’un bureau relayée en novembre 2025). La priorité affichée en septembre 2026 est l’upsell et les entreprises plus grandes, pas une course à de nouveaux pays. Implication : besoins de localisation, de support multi-marchés et de workflows PME plus structurées, plutôt qu’un programme d’implantation.
-- **Levée de fonds (signal faible, voire défavorable à un pitch « croissance »).** Dernier tour majeur en janvier 2022 (486 M€, valorisation 4,4 Md€) ; total cumulé 622 M€. En septembre 2026, la direction a dit ne pas avoir de projet de levée ni d’IPO à court terme, et disposer de capitaux grâce à la rentabilité. Implication : budget possible, mais décision à justifier par le ROI et la conformité, sans mandat d’hypercroissance.
+## Grok Bot use cases
 
-### Points d'incertitude
+### 1. Regulated credit file preparation
+- **Team**: Risk & Compliance
+- **Problem**: The November 2026 credit-institution licence turned payment accounts into deposit accounts, and a first range of financing and term deposits is planned for the first half of 2027. That adds internal credit, fraud and compliance files that still have to be drafted, retrieved and routed under human approval, while Risk & Compliance roles remain open.
+- **Expected benefit**: A persistent agent can assemble drafts and supporting context from company tools and the web, then hand each file to a reviewer with audit logs and action recording. Reviewers spend less time on assembly, so case-prep lead time should shorten; no hour saving is claimed.
+- **Signal**: ACPR and ECB licence announced 17 November 2026, H1 2027 financing and term-deposit plans, COO Chloé de Mont-Serrat’s remit on automation and banking-licence readiness, and open Risk & Compliance roles.
 
-- Répartition des 1 700 collaborateurs par ville ou par pays : non trouvée dans une source primaire détaillée. Un article (Milano Finanza, 24 septembre 2026) cite 460 embauches en 2026 et environ 100 personnes en Italie ; non recoupé avec un communiqué Qonto.
-- Écart entre le compteur de postes de la page carrières FR (30) et celui de la page EN (51 dans un extrait) : non expliqué. Date de fraîcheur exacte du compteur : non trouvée.
-- Le produit net bancaire et le résultat net 2025 proviennent des comptes sociaux cités par la presse (Les Echos, puis Journal des Entreprises), pas d’un communiqué de résultats publié par Qonto. Périmètre social vs consolidé : non vérifié au-delà de la mention « comptes sociaux ».
-- Effectif LinkedIn (fourchette 1 001–5 000, et un décompte d’environ 2 509 profils) non réconcilié avec les 1 700 du kit presse.
-- Statut exact des sites de Madrid et d’Amsterdam (bureau permanent, hub de recrutement ou antenne) : la page carrières les liste ; le kit presse ne retient que cinq villes. Non tranché.
-- Budget IA, stack fournisseurs interne au-delà des mentions publiques (Claude Cowork sur la page carrières ; agents Dust côté recrutement dans un article Medium de janvier 2025) : non trouvé.
-- Valorisation à jour depuis les 4,4 Md€ de 2022 : non trouvée.
+### 2. Eight-market customer ops routing
+- **Team**: Operations & Customer Success
+- **Problem**: More than 750,000 customers across eight live markets, plus the shift to deposit accounts and upcoming financing, increase internal customer-operations volume. That work is separate from the customer-facing Operator and Analyst agents shipped in April 2026, and Operations & Customer Success is still hiring.
+- **Expected benefit**: Scheduled and trigger-based agents can retrieve context, draft updates and write them into business tools, including CRM fields, and continue after a session ends. Repetitive handling per case should fall across markets; no volume percentage is claimed.
+- **Signal**: Product live in eight countries, more than 750,000 customers, open Operations & Customer Success roles, and the brief’s point that the pitch is internal workflows not productised, not a replacement for the customer agents.
 
-## Cas d'usage Grok Bot
+### 3. Monthly SME signal monitoring
+- **Team**: Growth
+- **Problem**: Qonto Insights, launched in October 2026, is a free monthly anonymised index of SME cash buffers, AI adoption, late payments and cross-border activity, while commercial coverage spans eight markets. Keeping that view current is recurring public-source research, not a one-off chat.
+- **Expected benefit**: A scheduled agent with real-time web and X search can collect public signals and produce a source spreadsheet plus draft notes each month, so Growth reviews a fuller set of sources with a shorter research lead time. No lift percentage is claimed.
+- **Signal**: October 2026 launch of Qonto Insights, eight-market footprint, and open Growth roles on the careers page.
 
-### 1. Dossiers conformité du crédit
-- **Équipe concernée** : Conformité et anti-financial crime
-- **Problème** : L'agrément d'établissement de crédit du 18 novembre 2026 ouvre crédit, épargne et certificats de dépôt, avec un déploiement progressif au S1 2027 : KYC, anti-financial crime et constitution documentaire montent en charge, alors que les recrutements conformité restent sélectifs et que les agents déjà en production (The Operator, The Analyst, MCP) couvrent le client, pas ces workflows internes.
-- **Bénéfice attendu** : Des agents persistants rassemblent les pièces, remplissent les outils métier et laissent une trace exploitable (journaux d'audit, enregistrement des actions, pas d'entraînement sur les données, option Enterprise Vault), pour raccourcir le délai de préparation d'un dossier avant revue humaine sans recruter au rythme de 2022. À mesurer sur ce délai et sur la part de contrôles pré-remplis, sans objectif chiffré à ce stade.
-- **Signal** : Agrément ACPR/BCE effectif le 18 novembre 2026, gamme financement visée au S1 2027, postes ouverts conformité / anti-financial crime, et signal explicite : une offre d'agents n'a de place que là où Qonto n'a pas industrialisé, en tête la conformité.
+## First outreach message (94 words)
 
-### 2. Préparation du lancement crédit
-- **Équipe concernée** : Opérations crédit
-- **Problème** : Financement de factures, lignes de crédit, prêts et dépôts à terme sont annoncés pour un déploiement progressif au S1 2027, en plus de l'expertise comptable lancée en juillet 2026, avec environ 1 700 collaborateurs et une direction qui assume une croissance plus modérée, sans vague d'embauches ni levée pour financer l'hypercroissance.
-- **Bénéfice attendu** : Des routines planifiées et des agents qui produisent procédures, checklists de parcours et supports de formation, puis mettent à jour les outils des équipes en place, avancent la date à laquelle un parcours est opérable avant le S1 2027. Indicateur : délai de mise à disposition des livrables opérationnels, à calibrer sur le plan de déploiement réel.
-- **Signal** : Espace presse du 17 novembre 2026 et Journal des Entreprises du 19 novembre 2026 (déploiement S1 2027) ; discours de septembre 2026 (plus de produits par client, entreprises plus grandes, effectif ~1 700 sous l'objectif historique de 2 000).
-
-### 3. Finance interne multi-produits
-- **Équipe concernée** : Finance transformation
-- **Problème** : Le statut bancaire, l'expertise comptable de juillet 2026 et la priorité donnée aux entreprises plus grandes sur 8 marchés alourdissent pièces, rapprochements et reportings internes, alors que la page carrières n'ouvre que des postes ciblés de finance transformation, pas un plan de staffing.
-- **Bénéfice attendu** : Des agents reçoivent ces tâches au fil de la journée, ouvrent les applications, produisent tableaux et documents et traitent le back-office répétitif (dont les notes de frais) sur déclencheurs, pour réduire le temps de collecte et de mise en forme des équipes en place. À mesurer sur le temps de cycle des traitements répétitifs ou des clôtures, sans chiffre inventé.
-- **Signal** : Postes ouverts finance transformation ; PNB 2025 de 495,4 M€ et nouveaux produits (crédit S1 2027, expertise comptable) ; recrutement sélectif et levier d'achat identifié comme l'outillage des équipes en place, pas une vague d'embauches.
-
-## Premier message de prospection (94 mots)
-
-Objet : Dossiers conformité avant le S1 2027
+Objet : Dossiers de crédit, premier semestre 2027
 
 Bonjour,
 
-L'agrément d'établissement de crédit est effectif depuis le 18 novembre 2026. Le financement de factures, les lignes de crédit et les prêts sont prévus pour un déploiement progressif au premier semestre 2027. Les contrôles KYC et la constitution des dossiers vont donc monter en charge, alors que les recrutements en conformité restent ciblés.
+En novembre 2026, l'ACPR et la BCE ont accordé à Qonto l'agrément d'établissement de crédit. Les premiers financements et dépôts à terme sont prévus pour le premier semestre 2027. Chaque dossier devra encore être monté, documenté et validé par une personne, alors que des postes en risque et conformité restent ouverts.
 
-Grok Bot peut rassembler les pièces, remplir les outils et garder une trace d'audit, afin de raccourcir la préparation d'un dossier avant la revue humaine.
+Grok Bot peut rassembler le brouillon et les pièces, puis les remettre au réviseur avec une trace des actions, pour que vos équipes passent moins de temps à assembler.
 
-Seriez-vous ouvert à un échange de 20 minutes ?
+Auriez-vous 20 minutes pour en parler ?
+
+### English translation
+
+Subject: Credit files, first half of 2027
+
+Hello,
+
+In November 2026, the ACPR and the ECB granted Qonto authorisation as a credit institution. The first financing and term deposits are planned for the first half of 2027. Each file will still need to be assembled, documented and validated by a person, while risk and compliance positions remain open.
+
+Grok Bot can gather the draft and the documents, then hand them to the reviewer with a record of the actions, so that your teams spend less time assembling.
+
+Would you have 20 minutes to discuss it?
 
 ## Sources
 
-- https://qonto.com/fr/press
-- https://www.lejournaldesentreprises.com/article/qonto-obtient-lagrement-detablissement-de-credit-avec-des-financements-annonces-pour-2027-2148581
-- https://www.capital.fr/entreprises-marches/qonto-la-fintech-francaise-assume-une-croissance-plus-moderee-1530432
-- https://www.lefigaro.fr/flash-eco/la-fintech-qonto-leve-le-pied-sur-la-croissance-20260924
-- https://data.inpi.fr/entreprises/819489626
-- https://qonto.com/fr/about
-- https://qonto.com/fr/careers
+- https://qonto.com/en/press
+- https://qonto.com/en/about
+- https://www.startupbusiness.it/en/qonto-new-headquarters-in-paris-ai-new-services-and-a-banking-licence/200186/
+- https://www.lesechos.fr/finance-marches/banque-assurances/fintech-qonto-franchit-les-10-milliards-deuros-de-bilan-2246010
+- https://en.wikipedia.org/wiki/Qonto
+- https://www.prnewswire.com/news-releases/qonto-has-been-granted-banking-license-marking-a-historic-milestone-in-its-european-development-302942703.html
+- https://www.pappers.fr/entreprise/qonto-819489626
+- https://entreprises.lefigaro.fr/qonto-75/entreprise-819489626
+- https://data.inpi.fr/export/companies?format=pdf&ids=%5B%22819489626%22%5D
+- https://qonto.com/en/careers
+- https://www.prnewswire.co.uk/news-releases/qonto-launches-qonto-insights-to-make-the-reality-of-european-smes-more-visible-302908803.html
+- https://docs.publicnow.com/viewDoc.aspx?filename=238699/EXT/EA6372D8EC46744B011BE76E19E93BB346C7505F_D7BAFFE61A62340AAFC446AE879B7CB59209E602.PDF
+- https://qonto.com/docs/pdf/qonto_mcp_pressrelease_18.10.2026.pdf
+- https://ffnews.com/news/qonto-transforms-into-an-ai-native-fintech-deploying-two-intelligent-agents-across-600000-businesses
+- https://qonto.com/docs/pdf/20251218_qonto_pr%20announcement_chloe%20de%20mont%20serrat_en.pdf

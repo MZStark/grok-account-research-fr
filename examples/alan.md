@@ -1,143 +1,105 @@
-# Alan : recherche de compte Grok Bot
+# Alan: Grok Bot account research
 
-_Généré le 23/11/2026 avec le modèle grok-4.7. À vérifier avant tout envoi._
+_Generated on 2026-11-23 with model grok-4.7. Check every fact before sending._
 
-## Fiche compte : Alan
+## Account brief: Alan
 
-**Activité** : Alan est un assureur santé numérique français, fondé en 2016, qui combine assurance complémentaire santé, prévoyance, prévention et accès aux soins dans une application. L’offre s’adresse d’abord aux entreprises (contrats collectifs, y compris PME, ETI et grands comptes) et aux organismes publics, ainsi qu’aux travailleurs non salariés et aux retraités. Le groupe est présent en France, en Belgique, en Espagne et au Canada.  
-[[1]](https://alan.com/llms.txt)  
-[[2]](https://alan-health.cdn.prismic.io/alan-health/aeo_zcBOoF08xQXr_AlanGroupSFCR2025%5BFinalversion%5D.pdf)  
-[[3]](https://alan.com/fr-fr/contact)
+**Business**: Alan sells an integrated health offer that combines complementary health insurance, prevention and day-to-day care navigation, mainly through its app. Customers are employers of all sizes, including private companies and public bodies, plus individuals such as the self-employed and retirees. It is a licensed insurer supervised in France by the ACPR, not only a broker. [[1]](https://alan.com/en) [[2]](https://www.prnewswire.com/news-releases/alan-announces-a-480-million-financing-round-to-make-prevention-insurance-the-new-global-standard-in-healthcare-302809870.html)
 
-**Taille** : L’entreprise déclare environ 790 à 800 salariés en 2026 (press room, mise à jour avril 2026 : 790+ ; presse de juin 2026 : 800 salariés). Avec environ 800 salariés, Alan est une ETI, donc dans la cible Mid-Market. L’ARR 2025 est de 785 M€ dans les communiqués de mars 2026 (+53 % vs 505 M€ en 2024) et de 787 M€ au 1er janvier 2026 dans le SFCR (+54 %) ; la press room (avril 2026) indique 804 M€+ d’ARR au T1 2026. Le résultat net groupe 2025 est de −26 M€. Le chiffre d’affaires comptable 2025 d’Alan Insurance (primes) est de 389 M€, distinct de l’ARR. Valorisation : 5,5 Md€ après la levée de juin 2026. Portefeuille : 1 059 000 assurés fin 2025 ; le site évoque plus d’un million de membres et, selon les pages, 37 000 ou 41 000 entreprises.  
-[[4]](https://alan.com/en/press-room)  
-[[5]](https://www.lefigaro.fr/flash-eco/l-assureur-sante-alan-leve-480-millions-d-euros-et-est-desormais-valorise-a-5-5-milliards-d-euros-20260624)  
-[[6]](https://www.maddyness.com/2026/03/11/alan-leve-100-millions-deuros-et-devient-rentable-en-france/)  
-[[2]](https://alan-health.cdn.prismic.io/alan-health/aeo_zcBOoF08xQXr_AlanGroupSFCR2025%5BFinalversion%5D.pdf)  
-[[7]](https://www.argusdelassurance.com/assurance-de-personnes/sante/complementaire-sante/alan-annonce-une-levee-de-fonds-record-de-480-millions-deuros-lassureur-sante-est-desormais-valorise-55-milliards-deuros.A24URBJBGNDUJOW2Q5Y72PTJ3Y.html)  
-[[8]](https://presse.tripalio.fr/alan-poursuit-sa-forte-croissance-et-vise-toujours-la-rentabilite-en-2027/)  
-[[3]](https://alan.com/fr-fr/contact)
+**Size**: The company reported more than 1,000 people and about €880 million of signed annual recurring revenue, with about 1.18 million signed members, at the end of September 2026 (letter dated 3 November 2026). [[3]](https://alan.com/en/blog/discover-alan/a/alan-2026-q3-letter-to-shareholders) In June 2026 it announced a €480 million Series G led by Prosus at a €5.5 billion valuation; in March 2026 it raised €100 million at a €5 billion valuation. [[2]](https://www.prnewswire.com/news-releases/alan-announces-a-480-million-financing-round-to-make-prevention-insurance-the-new-global-standard-in-healthcare-302809870.html) [[4]](https://techcrunch.com/2026/03/11/health-insurance-startup-alan-reaches-e5b-valuation/) These are company-reported commercial figures. The holding company Alan SA (SIREN 818 353 070) is not the insurer: INSEE classed that entity as an ETI with 50 to 99 employees in 2023, and Pappers shows holding-company revenue of €16.7 million for 2025. Group statutory premium income for 2025–2026: not found in the sources opened here. [[5]](https://annuaire-entreprises.data.gouv.fr/entreprise/alan-818353070) [[6]](https://www.pappers.fr/entreprise/818353070)
 
-**Secteur** : Assurance, sous-segment assurance complémentaire santé et prévoyance (insurtech), surtout en collectif d’entreprise et en protection sociale complémentaire du secteur public. Alan Insurance est immatriculée en « autres assurances » (NAF 65.12Z). En France, les contrats collectifs représentaient 93 % des membres fin 2025.  
-[[2]](https://alan-health.cdn.prismic.io/alan-health/aeo_zcBOoF08xQXr_AlanGroupSFCR2025%5BFinalversion%5D.pdf)  
-[[9]](https://www.societe.com/societe/alan-insurance-908311103.html)
+**Sector**: Insurance. Sub-segment: digital complementary health insurance (insurtech / healthtech), plus prevention, occupational health and care services. The holding company’s NAF code is head-office activity (70.10Z); the insurer Alan Insurance (SIREN 908 311 103) is registered under other insurance. [[5]](https://annuaire-entreprises.data.gouv.fr/entreprise/alan-818353070) [[7]](https://www.pappers.fr/entreprise/alan-insurance-908311103)
 
-**Siège et implantations** : Siège d’Alan SA (SIREN 818 353 070) et d’Alan Insurance (SIREN 908 311 103) au 117 quai de Valmy, 75010 Paris, France. Activité commerciale en France, Belgique, Espagne et Canada. Localisations publiques hors siège : Madrid et Bruxelles (page LinkedIn) ; opérations Canada depuis Toronto, avec une extension envisagée à Montréal (communiqué, mars 2026). Adresses exactes des bureaux hors Paris : non trouvé.  
-[[3]](https://alan.com/fr-fr/contact)  
-[[10]](https://annuaire-entreprises.data.gouv.fr/entreprise/alan-818353070)  
-[[11]](https://be.linkedin.com/company/avec-alan)  
-[[12]](https://www.newswire.ca/fr/news-releases/alan-atteint-785-meur-de-revenus-recurrents-annuels-et-conclut-une-ronde-de-financement-de-100-meur-alors-que-l-entreprise-poursuit-sa-croissance-internationale-notamment-au-canada-861646672.html)
+**Headquarters and locations**: Registered office at 117 quai de Valmy, 75010 Paris, France. [[1]](https://alan.com/en) [[8]](https://www.infogreffe.fr/entreprise/99a123af-6061-4006-a7aa-c04214fbbc67) Operating countries stated by the company: France, Belgium, Spain and Canada, plus Senegal and Côte d’Ivoire since September 2026. [[2]](https://www.prnewswire.com/news-releases/alan-announces-a-480-million-financing-round-to-make-prevention-insurance-the-new-global-standard-in-healthcare-302809870.html) [[3]](https://alan.com/en/blog/discover-alan/a/alan-2026-q3-letter-to-shareholders) A Toronto address is published for Alan CA Inc. (8 King Street East, Suite 600). [[9]](https://alan.com/en-ca/products/health-insurance) Other city offices as registered establishments: not found. The public register lists one active establishment for Alan SA, the Paris headquarters. [[5]](https://annuaire-entreprises.data.gouv.fr/entreprise/alan-818353070) Saudi Arabia is a pre-license only, not an operating location. [[3]](https://alan.com/en/blog/discover-alan/a/alan-2026-q3-letter-to-shareholders)
 
-### Actualités récentes
+### Recent news
+- **November 2026**: The Q3 shareholder letter (published 3 November 2026) reported about €880 million of signed ARR and about 1.18 million signed members at end-September, a team of more than 1,000, wins at the Autorité des marchés financiers and the Orne département, and an AI assistant resolving more than half of care contacts in France and about 70% of mobile contacts (Alan Q3 letter to shareholders). [[3]](https://alan.com/en/blog/discover-alan/a/alan-2026-q3-letter-to-shareholders)
+- **October 2026**: “Health Can’t Wait” launched in France on 1 October 2026, including a campaign with Kylian Mbappé, then in Belgium and Spain in mid-October; Canada was planned to follow (Alan Q3 letter to shareholders, 3 November 2026). [[3]](https://alan.com/en/blog/discover-alan/a/alan-2026-q3-letter-to-shareholders)
+- **September 2026**: Alan announced on 2 September 2026 that it had acquired Dakar-based Tanel, covering about 70,000 people across more than 400 companies in Senegal and Côte d’Ivoire, and launched the local brand Afiyah by Alan (Alan, 2 September 2026). [[10]](https://alan.com/en/blog/discover-alan/a/alan-acquisition-tanel-west-africa)
+- **August 2026**: Alan received pre-license approval from the Insurance Authority in Saudi Arabia (reported in the Q3 letter, 3 November 2026). [[3]](https://alan.com/en/blog/discover-alan/a/alan-2026-q3-letter-to-shareholders)
+- **June 2026**: Alan announced a Series G of €480 million led by Prosus, valuing the company at €5.5 billion, and said the proceeds would fund new countries, deeper presence in France, Belgium, Spain and Canada, acquisitions, and heavy investment in AI. Closing was stated as subject to regulatory approvals, including French financial authorities (Alan / PR Newswire, 25 June 2026). The 31 August 2026 Q2 letter refers to the round as done. [[2]](https://www.prnewswire.com/news-releases/alan-announces-a-480-million-financing-round-to-make-prevention-insurance-the-new-global-standard-in-healthcare-302809870.html) [[11]](https://alan.com/en/blog/discover-alan/a/alan-2026-q2-letter-to-shareholders)
 
-- Juin 2026 : levée Série G de 480 M€ menée par Prosus, aux côtés de Teachers’ Venture Growth, Index Ventures et du nouvel investisseur Dara Holdings ; valorisation portée à 5,5 Md€. Le PDG indique que la société n’avait « pas besoin de cash » et oriente les fonds vers la croissance internationale (Le Figaro, 24 juin 2026 ; Les Echos, 24 juin 2026 ; L’Argus de l’assurance, 25 juin 2026).  
-[[5]](https://www.lefigaro.fr/flash-eco/l-assureur-sante-alan-leve-480-millions-d-euros-et-est-desormais-valorise-a-5-5-milliards-d-euros-20260624)  
-[[13]](https://www.lesechos.fr/start-up/deals/alan-leve-480-millions-deuros-et-ambitionne-de-devenir-le-revolut-de-la-sante-2239017)  
-[[7]](https://www.argusdelassurance.com/assurance-de-personnes/sante/complementaire-sante/alan-annonce-une-levee-de-fonds-record-de-480-millions-deuros-lassureur-sante-est-desormais-valorise-55-milliards-deuros.A24URBJBGNDUJOW2Q5Y72PTJ3Y.html)
+### Buying signals
+- **Funding (strongest)**: €480 million in June 2026 at a €5.5 billion valuation, after €100 million in March 2026, with AI, international expansion and acquisitions named as uses of capital. [[2]](https://www.prnewswire.com/news-releases/alan-announces-a-480-million-financing-round-to-make-prevention-insurance-the-new-global-standard-in-healthcare-302809870.html) [[4]](https://techcrunch.com/2026/03/11/health-insurance-startup-alan-reaches-e5b-valuation/) That is real budget for agentic tools, and also budget to keep building them internally.
+- **AI and automation already in production**: Mo is the member front door; support AI resolves more than half of French care contacts; an email agent, a fraud agent and the in-house platform Hopper (used by 80% of employees and writing more than 25% of code changes) are live. [[3]](https://alan.com/en/blog/discover-alan/a/alan-2026-q3-letter-to-shareholders) An external AI-agent offer has to sit beside Hopper and the member-facing stack, not replace them.
+- **Expansion**: West Africa via Tanel (September 2026), a Saudi pre-license (August 2026), a first French local-authority contract, and a move to one global app and coverage model. [[3]](https://alan.com/en/blog/discover-alan/a/alan-2026-q3-letter-to-shareholders) [[10]](https://alan.com/en/blog/discover-alan/a/alan-acquisition-tanel-west-africa) Multi-country onboarding, compliance and sales support are plausible agent use cases only where Hopper does not already cover them.
+- **Hiring**: The public careers page listed 84 open positions, including software engineering (international expansion and security), sales in France and Belgium, care, public affairs, marketing and health practitioners; an exact split by function was not counted. [[12]](https://www.alan.com/jobs) Growing sales and operations teams are a possible entry for an employee-facing agent, while engineering hiring reinforces a build-in-house bias.
+- **Leadership change**: not found. No buying signal can be inferred.
 
-- Mai 2026 : le rapport 2025 confirme 1 059 000 assurés, un ARR de 787 M€ (+54 %), un résultat net groupe de −26 M€ et une rentabilité groupe visée en 2027. Les membres progressent de 134 % en Belgique, de 42 % en Espagne ; premières opérations commerciales au Canada (Tripalio, 18 mai 2026, d’après le rapport annuel ; SFCR groupe, exercice 2025).  
-[[8]](https://presse.tripalio.fr/alan-poursuit-sa-forte-croissance-et-vise-toujours-la-rentabilite-en-2027/)  
-[[2]](https://alan-health.cdn.prismic.io/alan-health/aeo_zcBOoF08xQXr_AlanGroupSFCR2025%5BFinalversion%5D.pdf)
+### Open questions
+- Whether the June 2026 Series G received final French regulatory approval: the release said closing was subject to approvals; the August letter treats the round as completed. No regulator notice was opened.
+- Group statutory earned premiums, net result and solvency for 2025 and 2026: not found here. Holding-company revenue is not a proxy.
+- Headcount by country and by legal entity: not found. The press room still showed 790+ people and four countries with a stated last update of April 2026, which is behind the November letter. [[13]](https://alan.com/en/press-room)
+- Whether 84 open roles is still current, and the count by function: not found.
+- Registered offices beyond Paris and Toronto: not found.
+- Progress of the Saudi licence after the August 2026 pre-approval: not found.
+- Who owns budget for external AI tools versus Hopper: not found.
+- Cumulative capital raised after Series G, from one reconciled primary source: not found.
 
-- Avril 2026 : la presse décrit le déploiement de Mo, compagnon de santé par IA, comme interface avec le parcours de soins des membres (Maddyness, 21 avril 2026).  
-[[14]](https://www.maddyness.com/2026/04/21/dans-10-ans-nous-aurons-tous-notre-compagnon-de-sante-la-french-tech-deploie-deja-ses-agents-ia/)
+## Grok Bot use cases
 
-- Mars 2026 : levée de 100 M€ menée par Index Ventures, avec Belfius, Greenoaks, Kaaf Investments et des investisseurs individuels, valorisant Alan à plus de 5 Md€. L’entreprise annonce la rentabilité opérationnelle en France, un ARR 2025 de 785 M€ (+53 %) et plus d’un million de membres (Les Echos, 11 mars 2026 ; Maddyness, 11 mars 2026 ; L’Argus de l’assurance, 11 mars 2026).  
-[[15]](https://www.lesechos.fr/finance-marches/banque-assurances/assurance-la-valorisation-dalan-senvole-a-plus-de-5-milliards-deuros-2220294)  
-[[6]](https://www.maddyness.com/2026/03/11/alan-leve-100-millions-deuros-et-devient-rentable-en-france/)  
-[[16]](https://www.argusdelassurance.com/tech/assurtech/alan/dix-ans-apres-sa-creation-lassureur-sante-alan-devient-rentable-en-france-et-compte-bientot-le-devenir-dans-son-ensemble.FPFJMHB43NFGDH3OBXRXSWI3OU.html)
+### 1. Employer sales research desk
+- **Team**: Sales
+- **Problem**: Sales roles are open in France and Belgium while Alan is winning public employers such as the AMF and the Orne département and pushing one global coverage model. Prospect and tender research plus CRM-ready updates sit outside Hopper, which is an internal coding platform, and outside the member-facing care agents.
+- **Expected benefit**: A persistent agent can run scheduled web research, draft account briefs and push CRM updates so new reps spend less time assembling dossiers. No hour or win-rate figure is claimed.
+- **Signal**: Careers page lists sales roles in France and Belgium; the November 2026 Q3 letter cites AMF and Orne wins; Series G proceeds were named for deeper presence in existing countries and expansion.
 
-### Signaux d'achat
+### 2. Multi-country regulatory watch
+- **Team**: Public affairs
+- **Problem**: Alan is an ACPR-supervised insurer in France, Belgium, Spain and Canada, newly operating in Senegal and Côte d’Ivoire after Tanel, with Saudi Arabia still pre-license only. Staff must track insurance-authority developments across that footprint without replacing Mo, the care agents or the fraud agent.
+- **Expected benefit**: Scheduled web search plus written digests can cut the lead time to a shared regulatory brief, with audit logs and no training on customer data matching an insurer’s controls. Alert volume is not stated as a measured result.
+- **Signal**: Company-stated operating countries, the 2 September 2026 Tanel acquisition, the August 2026 Saudi pre-license, public-affairs roles on the careers page, and ACPR supervision.
 
-- **Levée de fonds (signal le plus fort sur les moyens, faible sur l’achat d’un agent externe)** : 100 M€ en mars 2026 puis 480 M€ en juin 2026, pour l’international, le produit et d’éventuelles acquisitions ; la direction a dit ne pas avoir besoin de cash. Cela implique un budget disponible, mais déjà fléché vers la plateforme propre : une offre d’agents IA génériques a peu de place face à un build interne déjà financé.  
-[[13]](https://www.lesechos.fr/start-up/deals/alan-leve-480-millions-deuros-et-ambitionne-de-devenir-le-revolut-de-la-sante-2239017)  
-[[17]](https://www.usine-digitale.fr/sante/alan-leve-480-millions-deuros-aupres-de-prosus-pour-devenir-le-standard-mondial-de-lassurance-prevention.DBR6GQ62JFEVFFAMV2B3TNYEWA.html)  
-[[6]](https://www.maddyness.com/2026/03/11/alan-leve-100-millions-deuros-et-devient-rentable-en-france/)
+### 3. Tanel onboarding coordination
+- **Team**: Operations
+- **Problem**: Afiyah by Alan added about 70,000 people across more than 400 companies in Senegal and Côte d’Ivoire, while the group is standardizing on one global app and coverage model. Local-market facts, onboarding checklists and status documents are back-office work the member AI stack does not do.
+- **Expected benefit**: Triggered or scheduled agents can maintain integration trackers and draft status documents from public sources, shortening the time to one operating picture for the new markets. No headcount saving is asserted.
+- **Signal**: Alan’s 2 September 2026 Tanel announcement and the Q3 letter’s move to one global app and coverage model, with acquisitions and new countries named as uses of Series G capital.
 
-- **Projets IA et automatisation (signal fort de maturité, faible d’appétence pour un outil tiers membre)** : agents internes qui résolvent déjà plus de 50 % des questions membres ; Mo en déploiement ; le SFCR 2025 indique des investissements continus dans l’automatisation ; la masse salariale n’aurait augmenté que de 10 % en 2025 malgré +53 % d’ARR. Cela implique qu’un agent externe n’est crédible que sur un trou précis (support interne, conformité multi-pays), pas sur le parcours adhérent déjà industrialisé.  
-[[18]](https://www.hellowork.com/fr-fr/emplois/84385052.html)  
-[[14]](https://www.maddyness.com/2026/04/21/dans-10-ans-nous-aurons-tous-notre-compagnon-de-sante-la-french-tech-deploie-deja-ses-agents-ia/)  
-[[2]](https://alan-health.cdn.prismic.io/alan-health/aeo_zcBOoF08xQXr_AlanGroupSFCR2025%5BFinalversion%5D.pdf)  
-[[6]](https://www.maddyness.com/2026/03/11/alan-leve-100-millions-deuros-et-devient-rentable-en-france/)
+## First outreach message (100 words)
 
-- **Recrutements (signal de croissance, orientation « build »)** : la page emplois Alan affichait 84 postes ouverts (date de mise à jour de la page non vérifiée), dont ingénierie (expansion internationale, résolution automatisée), sales France / Belgique / Espagne, care, product et affaires publiques Belgique. Une offre publiée le 21 septembre 2026 cherche un profil HR Tech & Automation pour automatiser l’onboarding et déployer des agents IA internes (outils low-code cités : ActivePieces, Make, Zapier). Cela implique un recruteur d’ingénieurs IA, pas un acheteur d’agent clé en main ; le seul angle observable est l’outillage des fonctions support encore en cours d’automatisation.  
-[[19]](https://www.alan.com/jobs)  
-[[20]](https://bilingualjobs.io/jobs/forward-deployed-ops-hr-tech-and-automation-alan-49fd843987337745)
-
-- **Expansion (signal moyen)** : Canada en exploitation depuis début 2025 (licences provinciales, Toronto, Montréal envisagé) ; partenariat de distribution Belfius en Belgique ; nouveau pays envisagé d’ici 2027, non nommé ; acquisitions évoquées pour densifier les quatre pays ; appel à candidatures pour un réseau optique fermé, échéance 30 novembre 2026. Cela implique des besoins de scale multilingue et réglementaire, que l’entreprise traite surtout par recrutement local et produit interne.  
-[[12]](https://www.newswire.ca/fr/news-releases/alan-atteint-785-meur-de-revenus-recurrents-annuels-et-conclut-une-ronde-de-financement-de-100-meur-alors-que-l-entreprise-poursuit-sa-croissance-internationale-notamment-au-canada-861646672.html)  
-[[6]](https://www.maddyness.com/2026/03/11/alan-leve-100-millions-deuros-et-devient-rentable-en-france/)  
-[[17]](https://www.usine-digitale.fr/sante/alan-leve-480-millions-deuros-aupres-de-prosus-pour-devenir-le-standard-mondial-de-lassurance-prevention.DBR6GQ62JFEVFFAMV2B3TNYEWA.html)  
-[[21]](https://alan.com/fr-fr/l/rejoindre-reseau-alan)
-
-- **Changement de direction** : non trouvé. Jean-Charles Samuelian-Werve est toujours cité comme cofondateur et PDG en juin 2026 ; Charles Gorintin reste cofondateur. Aucun signal d’achat lié à une nouvelle direction.  
-[[13]](https://www.lesechos.fr/start-up/deals/alan-leve-480-millions-deuros-et-ambitionne-de-devenir-le-revolut-de-la-sante-2239017)
-
-### Points d'incertitude
-
-- Effectif exact à date et ventilation par filiale : non trouvé dans un document social unique. L’annuaire des entreprises indique 50 à 99 salariés en 2023 pour Alan SA (holding, NAF sièges sociaux) ; des fiches légales indiquent 10 à 19 salariés pour Alan Insurance. Ces tranches ne correspondent pas aux « environ 800 » du groupe.  
-[[10]](https://annuaire-entreprises.data.gouv.fr/entreprise/alan-818353070)  
-[[9]](https://www.societe.com/societe/alan-insurance-908311103.html)
-- Écart non réconcilié entre ARR (785 / 787 / 804 M€+ selon la source et la date) et primes comptables d’Alan Insurance (389 M€ en 2025). Le chiffre d’affaires consolidé du groupe, hors ARR, n’a pas été isolé ici au-delà du résultat net groupe de −26 M€.
-- Nombre exact de postes ouverts et répartition par métier : la page Ashby n’a pas renvoyé de contenu exploitable ; le décompte de 84 postes vient d’un extrait indexé, sans date de fraîcheur vérifiée.
-- Adresses des bureaux à Madrid, Bruxelles et Toronto : non trouvé.
-- Pays visé d’ici 2027 : non trouvé (seul l’horizon est public).
-- Part secondaire de la levée de juin 2026 : montant non trouvé (Les Echos indique qu’une partie, non chiffrée, est en secondaire).  
-[[13]](https://www.lesechos.fr/start-up/deals/alan-leve-480-millions-deuros-et-ambitionne-de-devenir-le-revolut-de-la-sante-2239017)
-- Changement récent de direction opérationnelle : non trouvé.
-
-## Cas d'usage Grok Bot
-
-### 1. Veille conformité multi-pays
-- **Équipe concernée** : Conformité et affaires publiques
-- **Problème** : L'exploitation au Canada (licences provinciales, Toronto, Montréal envisagé), le partenariat Belfius, la croissance en Espagne et un nouveau pays visé d'ici 2027 multiplient les obligations, alors que l'entreprise les couvre surtout par recrutement local et qu'un poste d'affaires publiques Belgique est encore ouvert.
-- **Bénéfice attendu** : Des routines planifiées recherchent les sources publiques et produisent des notes pays exploitables, pour suivre les juridictions sans ouvrir un poste de veille à chaque entrée sur un marché.
-- **Signal** : Canada en exploitation depuis début 2025, distribution Belfius, membres +134 % en Belgique et +42 % en Espagne, nouveau pays envisagé d'ici 2027, recrutement affaires publiques Belgique ; la fiche ne crédite un agent externe que sur la conformité multi-pays, pas sur le parcours adhérent déjà industrialisé.
-
-### 2. Automatisation onboarding RH
-- **Équipe concernée** : People Ops
-- **Problème** : L'onboarding n'est pas encore industrialisé : une offre du 21 septembre 2026 recrute un profil HR Tech & Automation pour l'automatiser et déployer des agents internes via des outils low-code, alors que la masse salariale n'aurait augmenté que de 10 % en 2025 malgré +53 % d'ARR.
-- **Bénéfice attendu** : Des agents persistants enchaînent les étapes dans les outils métier et produisent les documents d'onboarding, pour absorber les arrivées liées à l'international sans empiler recrutements ops et scénarios low-code.
-- **Signal** : Offre HR Tech & Automation du 21 septembre 2026 (onboarding, agents IA internes, ActivePieces, Make, Zapier) ; seul angle d'achat observable sur des fonctions support encore en cours d'automatisation, distinct des agents membres qui traitent déjà plus de 50 % des questions.
-
-### 3. Admin commerciale multi-pays
-- **Équipe concernée** : Sales Ops
-- **Problème** : Des postes sales sont ouverts en France, en Belgique et en Espagne alors que le collectif représente 93 % des membres en France (37 000 ou 41 000 entreprises selon les pages) et que la croissance se fait avec une hausse d'effectifs contenue.
-- **Bénéfice attendu** : Des agents préparent les dossiers comptes, mettent à jour le CRM et produisent les livrables commerciaux de façon récurrente, pour que le temps des commerciaux aille aux rendez-vous plutôt qu'à l'administratif multi-pays.
-- **Signal** : Recrutements sales France / Belgique / Espagne ; 93 % des membres français en collectif fin 2025 ; effectifs contenus (+10 % de masse salariale) face à un ARR 2025 en hausse de 53 %.
-
-## Premier message de prospection (86 mots)
-
-Objet : Veille hors de France
+Objet : AMF, Orne et la recherche commerciale
 
 Bonjour,
 
-Le rapport 2025, paru en mai, confirme les premières opérations au Canada, une hausse de 134 % des membres en Belgique et de 42 % en Espagne. Un nouveau pays est visé d'ici 2027.
+Votre lettre aux actionnaires du 3 novembre mentionne les contrats gagnés auprès de l'AMF et du département de l'Orne. Des postes commerciaux sont aussi ouverts en France et en Belgique.
 
-Ces obligations s'empilent, alors que vous les couvrez surtout en recrutant localement. Grok Bot peut lancer des recherches à heure fixe sur les sources publiques et préparer des notes pays utilisables, sans ouvrir un poste de veille à chaque marché.
+Chercher les informations sur un prospect, puis les remettre au propre dans le CRM, prend du temps. Hopper ne couvre pas ce travail.
 
-Est-ce qu'un échange de 20 minutes vous irait ?
+Grok Bot peut lancer ces recherches web planifiées, rédiger une fiche de compte et préparer la mise à jour CRM, pour que vos commerciaux y passent moins de temps.
+
+Un échange de 20 minutes cette semaine vous irait-il ?
+
+Cordialement
+
+### English translation
+
+Subject: AMF, Orne and commercial research
+
+Hello,
+
+Your letter to shareholders of November 3 mentions the contracts won with the AMF and the Orne department. Commercial positions are also open in France and Belgium.
+
+Looking up information on a prospect, then cleaning it up in the CRM, takes time. Hopper does not cover this work.
+
+Grok Bot can run these scheduled web searches, draft an account brief and prepare the CRM update, so that your salespeople spend less time on it.
+
+Would a 20-minute conversation this week suit you?
+
+Best regards
 
 ## Sources
 
-- https://alan.com/llms.txt
-- https://alan-health.cdn.prismic.io/alan-health/aeo_zcBOoF08xQXr_AlanGroupSFCR2025%5BFinalversion%5D.pdf
-- https://alan.com/fr-fr/contact
-- https://alan.com/en/press-room
-- https://www.lefigaro.fr/flash-eco/l-assureur-sante-alan-leve-480-millions-d-euros-et-est-desormais-valorise-a-5-5-milliards-d-euros-20260624
-- https://www.maddyness.com/2026/03/11/alan-leve-100-millions-deuros-et-devient-rentable-en-france/
-- https://www.argusdelassurance.com/assurance-de-personnes/sante/complementaire-sante/alan-annonce-une-levee-de-fonds-record-de-480-millions-deuros-lassureur-sante-est-desormais-valorise-55-milliards-deuros.A24URBJBGNDUJOW2Q5Y72PTJ3Y.html
-- https://presse.tripalio.fr/alan-poursuit-sa-forte-croissance-et-vise-toujours-la-rentabilite-en-2027/
-- https://www.societe.com/societe/alan-insurance-908311103.html
+- https://alan.com/en
+- https://www.prnewswire.com/news-releases/alan-announces-a-480-million-financing-round-to-make-prevention-insurance-the-new-global-standard-in-healthcare-302809870.html
+- https://alan.com/en/blog/discover-alan/a/alan-2026-q3-letter-to-shareholders
+- https://techcrunch.com/2026/03/11/health-insurance-startup-alan-reaches-e5b-valuation/
 - https://annuaire-entreprises.data.gouv.fr/entreprise/alan-818353070
-- https://be.linkedin.com/company/avec-alan
-- https://www.newswire.ca/fr/news-releases/alan-atteint-785-meur-de-revenus-recurrents-annuels-et-conclut-une-ronde-de-financement-de-100-meur-alors-que-l-entreprise-poursuit-sa-croissance-internationale-notamment-au-canada-861646672.html
-- https://www.lesechos.fr/start-up/deals/alan-leve-480-millions-deuros-et-ambitionne-de-devenir-le-revolut-de-la-sante-2239017
-- https://www.maddyness.com/2026/04/21/dans-10-ans-nous-aurons-tous-notre-compagnon-de-sante-la-french-tech-deploie-deja-ses-agents-ia/
-- https://www.lesechos.fr/finance-marches/banque-assurances/assurance-la-valorisation-dalan-senvole-a-plus-de-5-milliards-deuros-2220294
-- https://www.argusdelassurance.com/tech/assurtech/alan/dix-ans-apres-sa-creation-lassureur-sante-alan-devient-rentable-en-france-et-compte-bientot-le-devenir-dans-son-ensemble.FPFJMHB43NFGDH3OBXRXSWI3OU.html
-- https://www.usine-digitale.fr/sante/alan-leve-480-millions-deuros-aupres-de-prosus-pour-devenir-le-standard-mondial-de-lassurance-prevention.DBR6GQ62JFEVFFAMV2B3TNYEWA.html
-- https://www.hellowork.com/fr-fr/emplois/84385052.html
+- https://www.pappers.fr/entreprise/818353070
+- https://www.pappers.fr/entreprise/alan-insurance-908311103
+- https://www.infogreffe.fr/entreprise/99a123af-6061-4006-a7aa-c04214fbbc67
+- https://alan.com/en-ca/products/health-insurance
+- https://alan.com/en/blog/discover-alan/a/alan-acquisition-tanel-west-africa
+- https://alan.com/en/blog/discover-alan/a/alan-2026-q2-letter-to-shareholders
 - https://www.alan.com/jobs
-- https://bilingualjobs.io/jobs/forward-deployed-ops-hr-tech-and-automation-alan-49fd843987337745
-- https://alan.com/fr-fr/l/rejoindre-reseau-alan
+- https://alan.com/en/press-room

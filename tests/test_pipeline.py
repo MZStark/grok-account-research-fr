@@ -14,8 +14,8 @@ from core.pipeline import dedupe_citations, run
 SETTINGS = Settings(xai_api_key="test", model="grok-test", max_retries=3)
 
 CASES = {
-    "cas_usage": [
-        {"titre": f"Cas {i}", "equipe": "Support", "probleme": "p", "benefice": "b", "signal": "s"}
+    "use_cases": [
+        {"title": f"Case {i}", "team": "Support", "problem": "p", "benefit": "b", "signal": "s"}
         for i in range(1, 4)
     ]
 }
@@ -32,24 +32,32 @@ class FakeLLM:
 
 
 def test_full_pipeline_produces_the_three_sections():
-    llm = FakeLLM(["## Fiche compte : Qonto\n**Activité** : banque pro.", json.dumps(CASES), "Objet : Bonjour\n\nCourt message ?"])
+    llm = FakeLLM([
+        "## Account brief: Qonto\n**Business**: business banking.",
+        json.dumps(CASES),
+        "Objet : Bonjour\n\nCourt message ?",
+        "Subject: Hello\n\nShort message?",
+    ])
     report = run("Qonto", SETTINGS, llm=llm)
-    assert "## Fiche compte : Qonto" in report
-    assert report.count("### ") == 3
-    assert "## Premier message de prospection" in report
+    assert "## Account brief: Qonto" in report
+    assert "## Grok Bot use cases" in report
+    assert all(f"### {i}. Case {i}" in report for i in (1, 2, 3))
+    assert "## First outreach message (4 words)" in report  # counts the French message only
+    assert "Objet : Bonjour" in report
+    assert "### English translation\n\nSubject: Hello" in report
     assert "https://example.com/a" in report
     assert llm.calls[0]["web_search"] is True  # step 1 uses Grok's web_search tool
 
 
 def test_research_strips_narration_before_brief_heading():
-    llm = FakeLLM(["Je vais chercher des sources.Je vérifie.## Fiche compte : Alan\n**Activité** : assurance."])
+    llm = FakeLLM(["I will look for sources.Let me check.## Account brief: Alan\n**Business**: health insurance."])
     brief = research("Alan", llm, SETTINGS)
-    assert brief.markdown.startswith("## Fiche compte : Alan")
+    assert brief.markdown.startswith("## Account brief: Alan")
 
 
 def test_research_keeps_text_when_heading_is_missing():
-    llm = FakeLLM(["Pas de titre ici."])
-    assert research("Alan", llm, SETTINGS).markdown == "Pas de titre ici."
+    llm = FakeLLM(["No heading here."])
+    assert research("Alan", llm, SETTINGS).markdown == "No heading here."
 
 
 def test_duplicate_adjacent_citations_are_collapsed():
@@ -58,20 +66,20 @@ def test_duplicate_adjacent_citations_are_collapsed():
 
 
 def test_use_cases_retry_on_invalid_json():
-    llm = FakeLLM(["pas du json", json.dumps(CASES)])
-    assert len(derive_use_cases("fiche", llm)) == 3
+    llm = FakeLLM(["not json", json.dumps(CASES)])
+    assert len(derive_use_cases("brief", llm)) == 3
     assert len(llm.calls) == 2
 
 
 def test_use_cases_fail_cleanly_when_still_invalid():
     with pytest.raises(GrokAPIError):
-        derive_use_cases("fiche", FakeLLM(['{"cas_usage": []}', '{"cas_usage": []}']))
+        derive_use_cases("brief", FakeLLM(['{"use_cases": []}', '{"use_cases": []}']))
 
 
 def test_outreach_is_shortened_when_too_long():
     long_msg = "mot " * 150
     llm = FakeLLM([long_msg, "Objet : Court\n\nBonjour, un échange de 20 minutes ?"])
-    message = write_outreach("fiche", "cas", llm)
+    message = write_outreach("brief", "cases", llm)
     assert count_words(message) < 120
 
 

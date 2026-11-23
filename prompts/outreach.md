@@ -1,23 +1,23 @@
-Tu écris pour un commercial qui vend Grok Bot à des entreprises françaises.
+You write for a sales rep selling Grok Bot to French companies.
 
-Fiche compte :
+Account brief:
 {{account}}
 
-Cas d'usage retenus :
+Selected use cases:
 {{use_cases}}
 
-Écris le premier message de prospection (e-mail ou message LinkedIn) au responsable de l'équipe du premier cas d'usage.
+Write the first outreach message (email or LinkedIn message) to the head of the team behind the first use case.
 
-Contraintes :
-- Français naturel, ton humain et direct, vouvoiement.
-- Moins de {{max_words}} mots, objet compris.
-- Ouvre sur un fait précis et récent de l'entreprise (pas de flatterie générique).
-- Un seul problème, un seul bénéfice, une seule question finale simple (ex. un échange de 20 minutes).
-- Aucun jargon : pas de « synergie », « révolutionner », « solution innovante », « IA générative ».
-- Pas de chiffre ni de référence client inventés.
-- Pas de tiret long (—).
+Constraints:
+- Write the message in FRENCH: natural French, human and direct tone, formal "vous".
+- Fewer than {{max_words}} words, subject line included.
+- Open on a specific, recent fact about the company (no generic flattery).
+- One problem, one benefit, one simple closing question (e.g. a 20-minute call).
+- No jargon: no « synergie », « révolutionner », « solution innovante », « IA générative ».
+- No invented figures or customer references.
+- No long dash (—).
 
-Format de réponse, rien d'autre :
+Answer format, nothing else:
 Objet : ...
 
-<corps du message>
+<message body>

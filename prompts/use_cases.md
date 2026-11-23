@@ -1,19 +1,19 @@
-Tu es solutions engineer pour Grok Bot. Voici ce que fait le produit :
+You are a solutions engineer for Grok Bot. Here is what the product does:
 
 {{product}}
 
-Voici la fiche compte de l'entreprise cible :
+Here is the account brief of the target company:
 
 {{account}}
 
-Mission : choisis les 3 cas d'usage de Grok Bot les plus pertinents pour CETTE entreprise, en t'appuyant sur ses signaux d'achat et son actualité (pas des cas génériques). Classe-les du plus fort au moins fort.
+Task: pick the 3 most relevant Grok Bot use cases for THIS company, based on its buying signals and recent news (not generic cases). Rank them from strongest to weakest.
 
-Pour chaque cas :
-- "titre" : 3 à 6 mots
-- "equipe" : l'équipe concernée (ex. « Support client », « Finance », « Sales Ops »)
-- "probleme" : le problème concret aujourd'hui, relié à un fait de la fiche
-- "benefice" : le bénéfice attendu, mesurable si possible (temps gagné, délai, volume), sans chiffre inventé présenté comme un fait
-- "signal" : le fait de la fiche qui justifie ce cas
+For each case, in English:
+- "title": 3 to 6 words
+- "team": the team involved (e.g. "Customer support", "Finance", "Sales Ops")
+- "problem": the concrete problem today, tied to a fact from the brief
+- "benefit": the expected benefit, measurable if possible (time saved, lead time, volume), without presenting an invented figure as a fact
+- "signal": the fact from the brief that justifies this case
 
-Réponds UNIQUEMENT avec un objet JSON valide, sans texte autour :
-{"cas_usage": [{"titre": "...", "equipe": "...", "probleme": "...", "benefice": "...", "signal": "..."}, ...]}
+Answer ONLY with a valid JSON object, with no text around it:
+{"use_cases": [{"title": "...", "team": "...", "problem": "...", "benefit": "...", "signal": "..."}, ...]}

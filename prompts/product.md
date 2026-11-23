@@ -1,10 +1,10 @@
-Grok Bot (SpaceXAI, ex-xAI) : ce que le commercial vend
+Grok Bot (SpaceXAI, formerly xAI): what the sales rep sells
 
-- Une équipe d'agents IA persistants qui reçoivent des tâches au fil de la journée, comme des collègues, au lieu d'un simple chat.
-- Chaque agent dispose de son propre ordinateur dans le cloud : il ouvre des applications, navigue, remplit des outils métier et produit des livrables (documents, tableaux, mises à jour dans le CRM).
-- Le travail peut démarrer sans prompt (routines planifiées, déclencheurs) et continuer au-delà d'une session.
-- Recherche web et X en temps réel, connecteurs vers les outils de l'entreprise.
-- Contrôles entreprise : SSO, SCIM, droits par rôle, journaux d'audit, enregistrement des actions, pas d'entraînement sur les données du client, option Enterprise Vault.
-- Usage interne chez SpaceX annoncé : ventes, marketing, notes de frais et autres tâches de back-office.
+- A team of persistent AI agents that receive tasks throughout the day, like colleagues, instead of a simple chat.
+- Each agent has its own computer in the cloud: it opens applications, browses, fills in business tools and produces deliverables (documents, spreadsheets, CRM updates).
+- Work can start without a prompt (scheduled routines, triggers) and continue beyond a session.
+- Real-time web and X search, connectors to the company's tools.
+- Enterprise controls: SSO, SCIM, role-based permissions, audit logs, action recording, no training on customer data, Enterprise Vault option.
+- Announced internal use at SpaceX: sales, marketing, expense reports and other back-office tasks.
 
-Règles : ne jamais promettre une fonctionnalité absente de cette liste, ne pas inventer de prix ni de référence client.
+Rules: never promise a feature that is not on this list, never invent prices or customer references.
