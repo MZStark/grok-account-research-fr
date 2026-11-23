@@ -22,7 +22,7 @@ class AccountBrief:
 def research(company: str, llm: LLM, settings: Settings, search_fn=tavily_search) -> AccountBrief:
     company = company.strip()
     if not company:
-        raise ValueError("Le nom de l'entreprise est vide.")
+        raise ValueError("Company name is empty.")
 
     if settings.search_provider == "tavily":
         results = search_fn(

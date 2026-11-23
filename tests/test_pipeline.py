@@ -112,7 +112,7 @@ def test_client_retries_transient_errors():
     assert fake.responses.calls == 3
 
 
-def test_client_gives_up_with_french_message():
+def test_client_gives_up_with_clear_message():
     fake = FakeOpenAI(failures=10)
-    with pytest.raises(GrokAPIError, match="ne répond pas"):
+    with pytest.raises(GrokAPIError, match="not responding"):
         GrokClient(SETTINGS, client=fake, sleep=lambda s: None).complete("s", "u")

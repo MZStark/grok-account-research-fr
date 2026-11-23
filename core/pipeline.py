@@ -15,13 +15,13 @@ from core.llm import LLM, GrokClient
 def run(company: str, settings: Settings, llm: LLM | None = None, log=lambda msg: None) -> str:
     llm = llm or GrokClient(settings)
 
-    log("1/3 Recherche sur l'entreprise...")
+    log("1/3 Researching the company...")
     brief = research(company, llm, settings)
 
-    log("2/3 Cas d'usage...")
+    log("2/3 Deriving use cases...")
     cases_md = to_markdown(derive_use_cases(brief.markdown, llm))
 
-    log("3/3 Message de prospection...")
+    log("3/3 Writing the outreach message...")
     message = write_outreach(brief.markdown, cases_md, llm)
     words = count_words(message)
     warning = f"\n\n> Attention : {words} mots, au-dessus de la limite de {MAX_WORDS}." if words >= MAX_WORDS else ""

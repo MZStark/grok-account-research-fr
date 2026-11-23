@@ -3,7 +3,7 @@
 Every call goes through the Responses API, which is where xAI exposes its
 server-side `web_search` tool. Transient failures (timeouts, rate limits,
 5xx) are retried with exponential backoff; anything else surfaces as a
-`GrokAPIError` with a French, human-readable message.
+`GrokAPIError` with a human-readable message.
 """
 
 from __future__ import annotations
@@ -39,7 +39,7 @@ class GrokClient:
             try:
                 from openai import OpenAI
             except ImportError as exc:  # pragma: no cover
-                raise GrokAPIError("Le paquet 'openai' n'est pas installé (pip install -r requirements.txt).") from exc
+                raise GrokAPIError("The 'openai' package is not installed (pip install -r requirements.txt).") from exc
             client = OpenAI(
                 api_key=settings.xai_api_key,
                 base_url=settings.xai_base_url,
@@ -65,7 +65,7 @@ class GrokClient:
                 response = self._client.responses.create(**kwargs)
                 text = (getattr(response, "output_text", "") or "").strip()
                 if not text:
-                    raise GrokAPIError("Réponse vide de l'API Grok.")
+                    raise GrokAPIError("Empty response from the Grok API.")
                 return LLMResult(text=text, sources=_extract_sources(response))
             except GrokAPIError:
                 raise
@@ -87,18 +87,18 @@ def _is_transient(exc: Exception) -> bool:
 
 def _explain(exc: Exception | None) -> str:
     if exc is None:
-        return "L'API Grok n'a pas répondu."
+        return "The Grok API did not respond."
     status = getattr(exc, "status_code", None)
     name = type(exc).__name__
     if status == 401 or name == "AuthenticationError":
-        return "Clé XAI_API_KEY refusée (401). Vérifiez votre clé sur console.x.ai."
+        return "XAI_API_KEY rejected (401). Check your key at console.x.ai."
     if status == 404 or name == "NotFoundError":
-        return "Modèle introuvable (404). Vérifiez GROK_MODEL dans votre .env."
+        return "Model not found (404). Check GROK_MODEL in your .env."
     if status == 429 or name == "RateLimitError":
-        return "Limite de requêtes atteinte (429). Réessayez dans quelques minutes."
+        return "Rate limit reached (429). Try again in a few minutes."
     if name in {"APITimeoutError", "APIConnectionError"}:
-        return "L'API Grok ne répond pas (délai dépassé ou réseau). Réessayez plus tard."
-    return f"Erreur de l'API Grok : {name}."
+        return "The Grok API is not responding (timeout or network error). Try again later."
+    return f"Grok API error: {name}."
 
 
 def _extract_sources(response: Any) -> list[str]:

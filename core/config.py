@@ -32,14 +32,14 @@ class Settings:
         key = os.getenv("XAI_API_KEY", "").strip()
         if not key:
             raise ConfigError(
-                "XAI_API_KEY est manquante. Copiez .env.example en .env et renseignez votre clé xAI."
+                "XAI_API_KEY is missing. Copy .env.example to .env and set your xAI key."
             )
         provider = os.getenv("SEARCH_PROVIDER", "grok").strip().lower()
         if provider not in {"grok", "tavily"}:
-            raise ConfigError("SEARCH_PROVIDER doit valoir 'grok' ou 'tavily'.")
+            raise ConfigError("SEARCH_PROVIDER must be 'grok' or 'tavily'.")
         tavily = os.getenv("TAVILY_API_KEY", "").strip() or None
         if provider == "tavily" and not tavily:
-            raise ConfigError("SEARCH_PROVIDER=tavily demande TAVILY_API_KEY.")
+            raise ConfigError("SEARCH_PROVIDER=tavily requires TAVILY_API_KEY.")
         return cls(
             xai_api_key=key,
             xai_base_url=os.getenv("XAI_BASE_URL", cls.xai_base_url).strip(),

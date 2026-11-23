@@ -25,7 +25,7 @@ def tavily_search(query: str, api_key: str, max_results: int = 8, timeout_s: flo
         with urllib.request.urlopen(request, timeout=timeout_s) as resp:  # noqa: S310 - fixed https URL
             data = json.load(resp)
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
-        raise GrokAPIError(f"La recherche web (Tavily) a échoué : {exc}") from exc
+        raise GrokAPIError(f"Web search (Tavily) failed: {exc}") from exc
     return [
         {"title": r.get("title", ""), "url": r.get("url", ""), "content": r.get("content", "")}
         for r in data.get("results", [])

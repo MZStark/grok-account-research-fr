@@ -32,7 +32,7 @@ def derive_use_cases(account_markdown: str, llm: LLM, retries: int = 1) -> list[
         except ValueError as exc:
             last_error = str(exc)
             user += f"\n\nTa réponse précédente était invalide ({last_error}). Renvoie uniquement le JSON demandé."
-    raise GrokAPIError(f"Cas d'usage illisibles après correction : {last_error}")
+    raise GrokAPIError(f"Use cases still unreadable after a retry: {last_error}")
 
 
 def _parse(text: str) -> list[UseCase]:
