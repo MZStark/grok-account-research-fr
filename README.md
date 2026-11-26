@@ -38,13 +38,9 @@ Before a first call, a Mid-Market AE spends 30 to 45 minutes per account: readin
 
 This tool turns that into one command: sourced facts first, use cases derived from those facts, then a short message that opens on a real, recent event.
 
-## Demo
+## Examples
 
-![Demo](docs/demo.gif)
-
-_Recorded with the Streamlit UI (`streamlit run app.py`)._
-
-Sample outputs on public French companies (Qonto, Alan, Doctolib) are in [`examples/`](examples/).
+Try the [live demo](LIVE_DEMO_URL) (the demo strategy opens without a code). Sample command-line outputs on public French companies (Qonto, Alan, Doctolib) are in [`examples/`](examples/).
 
 ### Command line: install (3 commands)
 
