@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/plan.js": {
+      "maxDuration": 120,
+      "includeFiles": "{schema.json,prompts/system.md}"
+    }
+  }
+}

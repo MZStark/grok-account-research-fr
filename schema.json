@@ -1,0 +1,358 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "company",
+    "one_liner",
+    "snapshot",
+    "ai_maturity",
+    "strategic_priorities",
+    "use_cases",
+    "stakeholders",
+    "expansion_plan",
+    "adoption_and_impact",
+    "risks",
+    "open_questions",
+    "action_plan",
+    "outreach",
+    "sources"
+  ],
+  "properties": {
+    "company": {
+      "type": "string"
+    },
+    "one_liner": {
+      "type": "string"
+    },
+    "snapshot": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "value",
+          "source"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ai_maturity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "level",
+        "summary",
+        "evidence"
+      ],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "Exploring",
+            "Piloting",
+            "Scaling",
+            "AI-native"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fact",
+              "source"
+            ],
+            "properties": {
+              "fact": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "strategic_priorities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "priority",
+          "evidence",
+          "source"
+        ],
+        "properties": {
+          "priority": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "use_cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "product",
+          "team",
+          "business_value",
+          "value",
+          "feasibility",
+          "linked_priority",
+          "source"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "product": {
+            "type": "string",
+            "enum": [
+              "Grok Bot",
+              "Grok API"
+            ]
+          },
+          "team": {
+            "type": "string"
+          },
+          "business_value": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "feasibility": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "linked_priority": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "stakeholders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "role",
+          "influence",
+          "cares_about",
+          "angle"
+        ],
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "influence": {
+            "type": "string",
+            "enum": [
+              "Economic buyer",
+              "Champion",
+              "Technical evaluator",
+              "User",
+              "Gatekeeper"
+            ]
+          },
+          "cares_about": {
+            "type": "string"
+          },
+          "angle": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "expansion_plan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "horizon",
+          "motion",
+          "trigger"
+        ],
+        "properties": {
+          "horizon": {
+            "type": "string",
+            "enum": [
+              "Land (0-3 months)",
+              "Expand (3-6 months)",
+              "Scale (6-12 months)"
+            ]
+          },
+          "motion": {
+            "type": "string"
+          },
+          "trigger": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "adoption_and_impact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "governance",
+        "metrics"
+      ],
+      "properties": {
+        "governance": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "metrics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "metric",
+              "why"
+            ],
+            "properties": {
+              "metric": {
+                "type": "string"
+              },
+              "why": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "risk",
+          "mitigation"
+        ],
+        "properties": {
+          "risk": {
+            "type": "string"
+          },
+          "mitigation": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "action_plan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "window",
+          "action"
+        ],
+        "properties": {
+          "window": {
+            "type": "string",
+            "enum": [
+              "30 days",
+              "60 days",
+              "90 days"
+            ]
+          },
+          "action": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "outreach": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "opening_signal",
+        "message_fr",
+        "message_en"
+      ],
+      "properties": {
+        "opening_signal": {
+          "type": "string"
+        },
+        "message_fr": {
+          "type": "string"
+        },
+        "message_en": {
+          "type": "string"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "url"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grok Account Planner</title>
+  <meta name="description" content="Turn a French Mid-Market company name into a sourced Grok Bot account strategy: priorities, use cases, stakeholders, a 12-month expansion plan and a first message in French." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sim-banner" role="note">
+    <span class="sim-dot" aria-hidden="true"></span>
+    <span>Simulation tool built for application purposes. Personal project, not affiliated with SpaceXAI, xAI or any company shown.</span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#">
+      <span class="brand-mark" aria-hidden="true">◆</span>
+      <span>Grok Account Planner</span>
+    </a>
+    <div class="author">
+      <span class="author-name">Mehdi Zerraf</span>
+      <a class="btn-ghost small" href="https://www.linkedin.com/in/mehdi-zerraf" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn-ghost small" href="https://github.com/MZStark/grok-account-research-fr" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Grok Bot · French Mid-Market</p>
+      <h1>From company name to account strategy.</h1>
+      <p class="lead">Type a French company's name. The planner reads its public sources and builds a sourced account strategy: its priorities, its AI maturity, the Grok Bot use cases worth pursuing, who decides, how usage grows over 12 months, and a first message in French.</p>
+
+      <div class="why" id="about">
+        <p class="why-title">Why this exists</p>
+        <p>A Mid-Market Account Executive covers dozens of French companies. Before each first call, they need to know where AI agents fit the company's strategy, who decides, how usage grows after the first deal, and how to open in natural French. This planner does that research and refuses to invent. Built by Mehdi Zerraf as a working simulation of that job.</p>
+      </div>
+
+      <form id="plan-form" class="search" autocomplete="off">
+        <label class="sr-only" for="company">Company name</label>
+        <input id="company" name="company" type="text" required minlength="2" maxlength="80" placeholder="e.g. Doctolib, Alan, Qonto…" />
+        <button type="submit" class="btn-primary">Build the strategy</button>
+      </form>
+      <div class="access">
+        <label for="access-code">Access code</label>
+        <input id="access-code" type="password" autocomplete="off" placeholder="Required for live generation" />
+      </div>
+      <p class="hint">Ready examples below open without a code. <button type="button" class="link-btn" id="demo-btn">Open the demo strategy</button></p>
+    </section>
+
+    <section id="loading" class="loading" hidden aria-live="polite">
+      <div class="loading-card">
+        <div class="spinner" aria-hidden="true"></div>
+        <ol class="steps">
+          <li data-step="0">Searching public sources</li>
+          <li data-step="1">Reading the website, French press and job posts</li>
+          <li data-step="2">Mapping priorities to use cases</li>
+          <li data-step="3">Building the expansion plan and first message</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="error" class="error" hidden role="alert"></section>
+
+    <section id="plan" class="plan" hidden aria-live="polite"></section>
+
+    <section id="examples" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Examples</p>
+        <h2>Three French tech companies.</h2>
+        <p class="lead small">Strategies already generated open instantly. The others are built live.</p>
+      </div>
+      <div id="examples-grid" class="grid"></div>
+    </section>
+
+    <section id="method" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Method</p>
+        <h2>Built to be trusted in front of a customer.</h2>
+      </div>
+      <div class="rules">
+        <article class="rule"><h3>Facts and hypotheses apart</h3><p>What the company does today carries its source. What it could do is labelled as a hypothesis and tied to a strategic priority.</p></article>
+        <article class="rule"><h3>Priorities before products</h3><p>Every use case starts from something the company is publicly trying to achieve, then maps to Grok Bot agents or the Grok API.</p></article>
+        <article class="rule"><h3>Adoption and impact</h3><p>A deal is the start. Each strategy defines governance, the metrics leadership will track and how usage grows from land to scale.</p></article>
+      </div>
+      <pre class="pipeline" aria-label="Pipeline">company ─▶ Grok via xAI Responses API ─▶ web search ─▶ strict JSON schema ─▶ account strategy + French message</pre>
+    </section>
+
+  </main>
+
+  <footer class="footer">Simulation tool for application purposes · Built by Mehdi Zerraf</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

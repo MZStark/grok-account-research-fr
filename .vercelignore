@@ -1,0 +1,10 @@
+# The Vercel deployment only needs the static site and api/plan.js
+agents/
+core/
+tests/
+examples/
+main.py
+app.py
+requirements.txt
+pytest.ini
+.env

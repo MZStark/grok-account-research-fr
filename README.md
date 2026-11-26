@@ -1,16 +1,36 @@
-# grok-account-research-fr
+# Grok Account Planner (French Mid-Market)
 
-**An account-research agent for a sales rep selling Grok Bot to French Mid-Market companies (ETI, 250 to 5,000 employees).**
+> **Simulation tool built for application purposes.** Personal project, not affiliated with SpaceXAI, xAI or any company shown.
 
-Type a French company name. Get back, in English, in Markdown:
+**An account-planning tool for a sales rep selling Grok Bot to French Mid-Market companies (ETI, 250 to 5,000 employees), built on Grok through the xAI Responses API.**
 
-1. **An account brief**: what the company does, size, sector, recent news, and buying signals (funding, hiring, expansion).
-2. **The 3 most relevant Grok Bot use cases** for that company, each with the team involved, the problem and the expected benefit, tied to a fact from the brief.
-3. **A first outreach message** in French (the prospect's language), under 120 words, human tone, no jargon, followed by an English translation.
+[**Live demo →**](LIVE_DEMO_URL)
 
-```bash
-python main.py "Qonto" -o examples/qonto.md
-```
+Type a French company name. Get back a sourced account strategy:
+
+1. **Snapshot and AI maturity**: what the company does, size, funding, recent news, and how far it is with AI. Every fact carries its source.
+2. **Strategic priorities**: what the company is publicly trying to achieve.
+3. **Use-case portfolio**: 5 to 7 Grok Bot (or Grok API) use cases, each tied to a priority, on a value × feasibility matrix.
+4. **Stakeholder map, adoption metrics, risks, questions to validate** and a **12-month expansion plan** (land, expand, scale).
+5. **A 30/60/90-day plan** and **a first message in natural French** (under 120 words) with its English translation.
+
+Facts and hypotheses are labelled apart, and the planner writes "Not found in public sources" rather than guessing. Export to Markdown or PDF.
+
+## Two ways to run it
+
+| | Web app | Command line |
+|---|---|---|
+| Entry point | `index.html` + `api/plan.js` (Vercel) | `main.py` (Python) |
+| Output | Full account strategy, in the browser | Account brief, 3 use cases, French message (Markdown) |
+| Calls | One Grok call: web search + strict JSON schema | Three small agents (research, use cases, outreach) |
+
+### Web app on Vercel (zero npm dependencies)
+
+1. Import this repo in Vercel (no build step needed).
+2. Set the environment variables: `XAI_API_KEY`, `ACCESS_CODE` (live generation is closed without it), optionally `GROK_MODEL` and `RATE_LIMIT_PER_HOUR`.
+3. Deploy. The demo strategy and ready examples open without a code.
+
+Pre-generate the examples so they open instantly: `python planner.py --examples` (writes `data/plans/*.json`), then commit.
 
 ## The problem
 
@@ -26,7 +46,7 @@ _Recorded with the Streamlit UI (`streamlit run app.py`)._
 
 Sample outputs on public French companies (Qonto, Alan, Doctolib) are in [`examples/`](examples/).
 
-## Install (3 commands)
+### Command line: install (3 commands)
 
 ```bash
 git clone https://github.com/MZStark/grok-account-research-fr.git && cd grok-account-research-fr

@@ -1,0 +1,215 @@
+{
+  "company": "Nova Rail (fictional demo)",
+  "one_liner": "FICTIONAL COMPANY used to show the output format. Nova Rail sells train tickets online across Europe from Paris; AI agents are key to cutting back-office costs and defending margins against carrier-direct apps.",
+  "snapshot": [
+    {
+      "label": "Business",
+      "value": "Online rail ticketing marketplace, B2C and business travel",
+      "source": "https://example.com/demo"
+    },
+    {
+      "label": "Size",
+      "value": "Around 600 employees, 40% in engineering and data",
+      "source": "https://example.com/demo"
+    },
+    {
+      "label": "Funding",
+      "value": "Series D, profitable since last year",
+      "source": "https://example.com/demo"
+    },
+    {
+      "label": "Markets",
+      "value": "HQ in Paris, 9 European markets",
+      "source": "https://example.com/demo"
+    }
+  ],
+  "ai_maturity": {
+    "level": "Piloting",
+    "summary": "Rules-based automation in support and an ML team focused on search; no generative AI in production yet.",
+    "evidence": [
+      {
+        "fact": "A rules-based chatbot handles refunds; the engineering blog says it resolves under a third of requests.",
+        "source": "https://example.com/demo"
+      },
+      {
+        "fact": "Hiring two ML engineers for search ranking and personalization.",
+        "source": "https://example.com/demo"
+      }
+    ]
+  },
+  "strategic_priorities": [
+    {
+      "priority": "Reach profitability in every market",
+      "evidence": "CEO interview names margin per booking as the 2027 focus.",
+      "source": "https://example.com/demo"
+    },
+    {
+      "priority": "Grow business travel",
+      "evidence": "New B2B offer launched with three corporate clients.",
+      "source": "https://example.com/demo"
+    },
+    {
+      "priority": "Replace the legacy booking platform",
+      "evidence": "Conference talk on the monolith migration.",
+      "source": "https://example.com/demo"
+    }
+  ],
+  "use_cases": [
+    {
+      "name": "Refund and rebooking agents in the back office",
+      "product": "Grok Bot",
+      "team": "Customer operations",
+      "business_value": "Agents process refund files in the existing tools during disruption peaks, without temporary staff.",
+      "value": "high",
+      "feasibility": "high",
+      "linked_priority": "Reach profitability in every market",
+      "source": "https://example.com/demo"
+    },
+    {
+      "name": "Expense reports and supplier invoices",
+      "product": "Grok Bot",
+      "team": "Finance",
+      "business_value": "A daily routine matches invoices and expense reports, so the team closes the month faster.",
+      "value": "high",
+      "feasibility": "medium",
+      "linked_priority": "Reach profitability in every market",
+      "source": "https://example.com/demo"
+    },
+    {
+      "name": "CRM updates and account briefs for B2B sales",
+      "product": "Grok Bot",
+      "team": "B2B sales",
+      "business_value": "Agents update the CRM after each call and prepare briefs on new corporate prospects.",
+      "value": "medium",
+      "feasibility": "high",
+      "linked_priority": "Grow business travel",
+      "source": "https://example.com/demo"
+    },
+    {
+      "name": "Natural-language trip search",
+      "product": "Grok API",
+      "team": "Product",
+      "business_value": "Higher conversion on complex multi-leg trips.",
+      "value": "medium",
+      "feasibility": "medium",
+      "linked_priority": "Grow business travel",
+      "source": "https://example.com/demo"
+    },
+    {
+      "name": "Weekly carrier and competitor watch",
+      "product": "Grok Bot",
+      "team": "Partnerships",
+      "business_value": "A scheduled routine tracks carrier announcements on the web and X and sends a weekly summary.",
+      "value": "medium",
+      "feasibility": "high",
+      "linked_priority": "Reach profitability in every market",
+      "source": "https://example.com/demo"
+    }
+  ],
+  "stakeholders": [
+    {
+      "role": "CFO",
+      "influence": "Economic buyer",
+      "cares_about": "Cost per booking and margin by market",
+      "angle": "Tie every use case to cost per contact or margin per booking."
+    },
+    {
+      "role": "VP Customer Operations",
+      "influence": "Champion",
+      "cares_about": "Resolution time during disruptions",
+      "angle": "Start where the pain is weekly and visible."
+    },
+    {
+      "role": "CTO",
+      "influence": "Technical evaluator",
+      "cares_about": "Integration with the booking platform during the migration",
+      "angle": "Show that agents work in existing tools, with SSO and audit logs."
+    },
+    {
+      "role": "CISO",
+      "influence": "Gatekeeper",
+      "cares_about": "Customer data and EU residency",
+      "angle": "Bring security in at the start, not at signature."
+    }
+  ],
+  "expansion_plan": [
+    {
+      "horizon": "Land (0-3 months)",
+      "motion": "Refund agents on one market and one language.",
+      "trigger": "Agents clear more refund files than the current process."
+    },
+    {
+      "horizon": "Expand (3-6 months)",
+      "motion": "All 9 markets, then finance routines for invoices and expense reports.",
+      "trigger": "Next disruption peak handled without extra staff."
+    },
+    {
+      "horizon": "Scale (6-12 months)",
+      "motion": "Agents for B2B sales and partnerships; Grok API for trip search in the product.",
+      "trigger": "CFO validates the cost-per-file gains in the annual plan."
+    }
+  ],
+  "adoption_and_impact": {
+    "governance": [
+      "Named executive sponsor and one owner per use case",
+      "Data access rules agreed with security before the pilot",
+      "Enablement plan for support agents and engineers"
+    ],
+    "metrics": [
+      {
+        "metric": "Share of refund files closed by agents",
+        "why": "Direct link to support cost."
+      },
+      {
+        "metric": "Cost per file during disruption weeks",
+        "why": "The number the CFO already tracks."
+      },
+      {
+        "metric": "Days to close the month",
+        "why": "Shows the impact of the finance routines."
+      }
+    ]
+  },
+  "risks": [
+    {
+      "risk": "Customer data residency concerns",
+      "mitigation": "Walk security through EU data residency options early."
+    },
+    {
+      "risk": "IT worries about agents acting in business tools",
+      "mitigation": "Start with read-only access and action recording, then widen permissions role by role."
+    }
+  ],
+  "open_questions": [
+    "Which refund cases still need a human, and why?",
+    "Who owns the build-versus-buy decision for AI?",
+    "How will the CFO judge ROI after one quarter?",
+    "What data can an agent access today?",
+    "Which migration milestones are already committed?"
+  ],
+  "action_plan": [
+    {
+      "window": "30 days",
+      "action": "Map the champion and economic buyer; agree on the pilot scope and success criteria."
+    },
+    {
+      "window": "60 days",
+      "action": "Run the refund agent pilot; open the finance routines conversation with the CFO."
+    },
+    {
+      "window": "90 days",
+      "action": "Present pilot results to the CFO with a 12-month expansion plan."
+    }
+  ],
+  "outreach": {
+    "opening_signal": "(Fictional) the CEO named margin per booking as the 2027 focus.",
+    "message_fr": "Bonjour,\n\nJ'ai lu que la marge par réservation était votre priorité pour 2027. Pendant les grèves, vos équipes traitent les remboursements à la main, dans plusieurs outils.\n\nGrok Bot, ce sont des agents qui travaillent dans vos outils comme des collègues : ils traitent les dossiers de remboursement et vous rendent un rapport chaque soir.\n\nSeriez-vous ouvert à un échange de 20 minutes pour voir si un pilote sur un marché aurait du sens ?\n\nBonne journée,",
+    "message_en": "Hello,\n\nI read that margin per booking is your priority for 2027. During strikes, your teams process refunds by hand, across several tools.\n\nGrok Bot is a team of agents that work in your tools like colleagues: they process refund files and send you a report every evening.\n\nWould you be open to a 20-minute call to see whether a pilot on one market makes sense?\n\nBest regards,"
+  },
+  "sources": [
+    {
+      "title": "Fictional demo data, no real source",
+      "url": "https://example.com/demo"
+    }
+  ]
+}
