@@ -8,3 +8,4 @@ app.py
 requirements.txt
 pytest.ini
 .env
+planner.py
