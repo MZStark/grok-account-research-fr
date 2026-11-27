@@ -32,12 +32,6 @@ Facts and hypotheses are labelled apart, and the planner writes "Not found in pu
 
 Pre-generate the examples so they open instantly: `python planner.py --examples` (writes `data/plans/*.json`), then commit.
 
-## The problem
-
-Before a first call, an Account Executive spends 30 to 45 minutes per account: reading the website, the French business press, the careers page and LinkedIn, then guessing which use case to open with. The research is repetitive, the output is rarely structured, and the opener often ends up generic ("I saw you're growing fast..."). Outreach to French companies also needs to be written in natural French, not translated English.
-
-This tool turns that into one command: sourced facts first, use cases derived from those facts, then a short message that opens on a real, recent event.
-
 ## Examples
 
 Try the [live demo](LIVE_DEMO_URL) (the demo strategy opens without a code). Sample command-line outputs on public French companies (Qonto, Alan, Doctolib) are in [`examples/`](examples/).
