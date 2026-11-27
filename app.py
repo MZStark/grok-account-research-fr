@@ -8,7 +8,7 @@ from core.pipeline import run
 
 st.set_page_config(page_title="Grok Bot account research", page_icon="🔎")
 st.title("Grok Bot account research")
-st.caption("French Mid-Market companies: account brief, 3 use cases, first outreach message.")
+st.caption("French companies: account brief, 3 use cases, first outreach message.")
 
 company = st.text_input("Company name", placeholder="Qonto")
 if st.button("Run research", type="primary", disabled=not company.strip()):
