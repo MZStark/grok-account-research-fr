@@ -4,7 +4,7 @@
 
 **An account-planning tool for a sales rep selling Grok Bot to French companies, built on Grok through the xAI Responses API.**
 
-[**Live demo →**](LIVE_DEMO_URL)
+[**Live demo →**](https://grok-account-research-fr.vercel.app)
 
 Type a French company name. Get back a sourced account strategy:
 
@@ -34,7 +34,7 @@ Pre-generate the examples so they open instantly: `python planner.py --examples`
 
 ## Examples
 
-Try the [live demo](LIVE_DEMO_URL) (the demo strategy opens without a code). Sample command-line outputs on public French companies (Qonto, Alan, Doctolib) are in [`examples/`](examples/).
+Try the [live demo](https://grok-account-research-fr.vercel.app) (the demo strategy opens without a code). Sample command-line outputs on public French companies (Qonto, Alan, Doctolib) are in [`examples/`](examples/).
 
 ### Command line: install (3 commands)
 
